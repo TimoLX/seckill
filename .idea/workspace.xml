@@ -1,180 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="db7ae663-2745-4176-82ed-ab1fc9e1d8b7" name="默认的" comment="initial seckill">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/seckill/dao/SeckillDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/seckill/dao/SuccessKilledDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/seckill/dao/cache/RedisDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/seckill/dto/Exposer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/seckill/dto/SeckillExecution.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/seckill/dto/SeckillResult.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/seckill/entity/Seckill.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/seckill/entity/SuccessKilled.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/seckill/enums/SeckillStateEnum.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/seckill/exception/RepeatKillException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/seckill/exception/SeckillCloseException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/seckill/exception/SeckillException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/seckill/service/SeckillService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/seckill/service/impl/SeckillServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/seckill/web/SeckillController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/seckill/WEB-INF/classes/org/seckill/dao/SeckillDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/seckill/WEB-INF/classes/org/seckill/dao/SuccessKilledDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/seckill/WEB-INF/classes/org/seckill/dao/cache/RedisDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/seckill/WEB-INF/classes/org/seckill/dto/Exposer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/seckill/WEB-INF/classes/org/seckill/dto/SeckillExecution.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/seckill/WEB-INF/classes/org/seckill/dto/SeckillResult.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/seckill/WEB-INF/classes/org/seckill/entity/Seckill.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/seckill/WEB-INF/classes/org/seckill/entity/SuccessKilled.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/seckill/WEB-INF/classes/org/seckill/enums/SeckillStateEnum.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/seckill/WEB-INF/classes/org/seckill/exception/RepeatKillException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/seckill/WEB-INF/classes/org/seckill/exception/SeckillCloseException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/seckill/WEB-INF/classes/org/seckill/exception/SeckillException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/seckill/WEB-INF/classes/org/seckill/service/SeckillService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/seckill/WEB-INF/classes/org/seckill/service/impl/SeckillServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/seckill/WEB-INF/classes/org/seckill/web/SeckillController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/seckill/WEB-INF/lib/aopalliance-1.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/seckill/WEB-INF/lib/c3p0-0.9.1.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/seckill/WEB-INF/lib/commons-collections-3.2.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/seckill/WEB-INF/lib/commons-logging-1.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/seckill/WEB-INF/lib/commons-pool2-2.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/seckill/WEB-INF/lib/jackson-annotations-2.5.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/seckill/WEB-INF/lib/jackson-core-2.5.4.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/seckill/WEB-INF/lib/jackson-databind-2.5.4.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/seckill/WEB-INF/lib/javax.servlet-api-3.1.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/seckill/WEB-INF/lib/jedis-2.7.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/seckill/WEB-INF/lib/jstl-1.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/seckill/WEB-INF/lib/logback-classic-1.1.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/seckill/WEB-INF/lib/logback-core-1.1.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/seckill/WEB-INF/lib/mybatis-3.3.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/seckill/WEB-INF/lib/mybatis-spring-1.2.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/seckill/WEB-INF/lib/mysql-connector-java-5.0.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/seckill/WEB-INF/lib/protostuff-api-1.0.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/seckill/WEB-INF/lib/protostuff-collectionschema-1.0.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/seckill/WEB-INF/lib/protostuff-core-1.0.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/seckill/WEB-INF/lib/protostuff-runtime-1.0.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/seckill/WEB-INF/lib/slf4j-api-1.7.12.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/seckill/WEB-INF/lib/spring-aop-4.1.7.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/seckill/WEB-INF/lib/spring-beans-4.1.7.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/seckill/WEB-INF/lib/spring-context-4.1.7.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/seckill/WEB-INF/lib/spring-core-4.1.7.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/seckill/WEB-INF/lib/spring-expression-4.1.7.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/seckill/WEB-INF/lib/spring-jdbc-4.1.7.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/seckill/WEB-INF/lib/spring-test-4.1.7.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/seckill/WEB-INF/lib/spring-tx-4.1.7.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/seckill/WEB-INF/lib/spring-web-4.1.7.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/seckill/WEB-INF/lib/spring-webmvc-4.1.7.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/seckill/WEB-INF/lib/standard-1.1.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/seckill/dao/SeckillDaoTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/seckill/dao/SuccessKilledDaoTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/seckill/dao/cache/RedisDaoTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/seckill/service/SeckillServiceTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/seckill_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/seckill_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/91f44dbf-67cb-4aff-8a3a-7126e7041d05.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/91f44dbf-67cb-4aff-8a3a-7126e7041d05/storage.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__c3p0_c3p0_0_9_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_api_1_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_collectionschema_1_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_core_1_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_runtime_1_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_5_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_5_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_5_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_2_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_1_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_1_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_1_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_1_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_1_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_1_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_1_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_1_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_1_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_1_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_7_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__taglibs_standard_1_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/seckill.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/seckill/dao/SeckillDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/seckill/dao/SuccessKilledDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/seckill/dao/cache/RedisDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/seckill/dto/Exposer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/seckill/dto/SeckillExecution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/seckill/dto/SeckillResult.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/seckill/entity/Seckill.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/seckill/entity/SuccessKilled.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/seckill/enums/SeckillStateEnum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/seckill/exception/RepeatKillException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/seckill/exception/SeckillCloseException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/seckill/exception/SeckillException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/seckill/service/SeckillService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/seckill/service/impl/SeckillServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/seckill/web/SeckillController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mapper/SeckillDao.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mapper/SuccessKilledDao.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-service.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/sql/schema.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/sql/seckill.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/common/head.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/common/tag.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/detail.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/list.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/script/seckill.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/seckill/dao/SeckillDaoTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/seckill/dao/SuccessKilledDaoTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/seckill/dao/cache/RedisDaoTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/seckill/service/SeckillServiceTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/logback.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mapper/SeckillDao.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mapper/SuccessKilledDao.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mybatis-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/spring/spring-dao.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/spring/spring-service.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/spring/spring-web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/seckill/META-INF/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/seckill/WEB-INF/classes/jdbc.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/seckill/WEB-INF/classes/logback.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/seckill/WEB-INF/classes/mapper/SeckillDao.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/seckill/WEB-INF/classes/mapper/SuccessKilledDao.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/seckill/WEB-INF/classes/mybatis-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/seckill/WEB-INF/classes/spring/spring-dao.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/seckill/WEB-INF/classes/spring/spring-service.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/seckill/WEB-INF/classes/spring/spring-web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/seckill/WEB-INF/jsp/common/head.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/seckill/WEB-INF/jsp/common/tag.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/seckill/WEB-INF/jsp/detail.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/seckill/WEB-INF/jsp/list.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/seckill/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/seckill/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/seckill/resources/script/seckill.js" />
+    <list default="true" id="db7ae663-2745-4176-82ed-ab1fc9e1d8b7" name="默认的" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -251,12 +80,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
               <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="326">
+                <caret line="76" column="14" lean-forward="true" selection-start-line="76" selection-start-column="14" selection-end-line="76" selection-end-column="14" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -328,6 +170,7 @@
         <option value="$PROJECT_DIR$/src/main/java/org/seckill/enums/SeckillStateEnum.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/script/seckill.js" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -1062,8 +905,16 @@
       <workItem from="1524295529104" duration="353000" />
       <workItem from="1524446118427" duration="6769000" />
       <workItem from="1524550326732" duration="1664000" />
-      <workItem from="1524552014955" duration="158000" />
+      <workItem from="1524552014955" duration="2186000" />
     </task>
+    <task id="LOCAL-00001" summary="initial seckill">
+      <created>1524552190566</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1524552190566</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1099,7 +950,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96952000" />
+    <option name="totallyTimeSpent" value="98980000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1132,7 +983,7 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914925" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="消息" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17207335" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="消息" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17207335" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09902371" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
@@ -1182,13 +1033,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/SuccessKilledDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/org/seckill/dao/SuccessKilledDaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -1562,6 +1406,17 @@
         <state relative-caret-position="180">
           <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="326">
+            <caret line="76" column="14" lean-forward="true" selection-start-line="76" selection-start-column="14" selection-end-line="76" selection-end-column="14" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
